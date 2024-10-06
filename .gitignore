@@ -1,0 +1,4 @@
+data/*.gz
+data/*.npy
+models/.hf_cache
+.DS_Store

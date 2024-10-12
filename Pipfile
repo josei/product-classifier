@@ -9,6 +9,8 @@ numpy = "*"
 scikit-learn = "*"
 model2vec = "*"
 imblearn = "*"
+sentence-transformers = "*"
+torch = "*"
 
 [dev-packages]
 

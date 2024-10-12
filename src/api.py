@@ -11,5 +11,5 @@ def ping():
 
 @app.post("/predict", response_model=ProductCategory)
 def predict(product: InputProduct):
-    prediction = model.predict(product)
+    prediction = model.predict([product])[0]
     return ProductCategory(main_cat=prediction)
